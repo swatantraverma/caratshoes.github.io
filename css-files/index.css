@@ -1109,7 +1109,7 @@ nav .like-cart-mode .cart span {
 /* DETAILS-WINDOW-START */
 
 .details {
-    width: 80vw;
+    width: 80%;
     height: auto;
     position: fixed;
     background-color: var(--white);
