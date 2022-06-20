@@ -1,0 +1,242 @@
+body {
+    overflow-x: hidden;
+}
+
+
+/* OUR-PRODUCT-QUALITY-START */
+
+.our-product-quality {
+    background-color: var(--white);
+    width: 100%;
+}
+
+.our-product-quality .p {
+    color: var(--black);
+}
+
+
+/* OUR-PRODUCT-QUALITY-END */
+
+
+/* HOW-TO-GET-SHOES-SECTION-START */
+
+.how-to-get-product {
+    background-color: var(--white);
+    width: 100%;
+}
+
+.how-to-get-product .cards-group {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.how-to-get-product .cards-group .cardsingle {
+    padding: 10px 20px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.how-to-get-product .cards-group .cardsingle .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.how-to-get-product .cards-group .cardsingle .img img {
+    width: 35%;
+}
+
+.how-to-get-product .cards-group .cardsingle .h4 {
+    text-align: center;
+    font-size: 22px !important;
+    color: var(--yellow);
+}
+
+@media only screen and (max-width: 992px) {
+    .how-to-get-product .cards-group .cardsingle {
+        width: 400px;
+        margin: 20px 35px;
+    }
+}
+
+
+/* HOW-TO-GET-SHOES-SECTION-END */
+
+
+/* BEST-SELLING-PRODUCT-START */
+
+.best-selling-product-and-team {
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-selling-product-and-team .inner-section {
+    border-top: 2px solid var( --shadow);
+    border-bottom: 2px solid var( --shadow);
+    padding: 70px 0px;
+}
+
+.best-selling-product-and-team .first {
+    width: 260px;
+    margin-right: 30px;
+}
+
+.best-selling-product-and-team .first .h1 {
+    margin: 0px !important;
+    text-align: left;
+    font-size: 50px;
+}
+
+.best-selling-product-and-team .first .h1 span {
+    color: var(--yellow);
+}
+
+.best-selling-product-and-team .second {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-left: 2px solid var(--shadow);
+}
+
+.best-selling-product-and-team .second .img {
+    width: 230px;
+    height: 230px;
+    margin: 20px;
+}
+
+.best-selling-product-and-team .second .img img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .best-selling-product-and-team .first {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .best-selling-product-and-team .first .h1 {
+        font-size: 30px!important;
+        text-align: center;
+        font-weight: 600!important;
+    }
+    .best-selling-product-and-team .second {
+        border: none;
+        width: 100%;
+    }
+}
+
+
+/* BEST-SELLING-PRODUCT-END */
+
+
+/* OUR-TEAM-SECTION-START */
+
+.our-best-team .first {
+    order: 2;
+    margin-left: 30px;
+}
+
+.our-best-team .second {
+    order: 1;
+    border-left: none;
+    border-right: 2px solid var(--shadow);
+}
+
+.our-best-team .second .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.our-best-team .second .img img {
+    width: 40%;
+}
+
+.our-best-team .second .img .h5 {
+    margin: 15px 0px 0px 0px !important;
+}
+
+.our-best-team .second .img .h4 {
+    text-align: center;
+    font-size: 22px !important;
+    color: var(--yellow);
+}
+
+@media only screen and (max-width: 992px) {
+    .our-best-team .second {
+        border: none;
+        width: 100%;
+        order: 2;
+    }
+    .our-best-team .first {
+        order: 1;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .our-best-team .first .h1 {
+        font-size: 30px!important;
+        text-align: center;
+        font-weight: 600!important;
+    }
+}
+
+
+/* OUR-TEAM-SECTION-END */
+
+
+/* OUR-MISSION-SECTION-START */
+
+.our-mission {
+    background-color: var(--white);
+}
+
+.our-mission .content {
+    position: relative;
+    left: 0px;
+    width: 100%;
+}
+
+.our-mission .content .p-black {
+    text-align: left !important;
+}
+
+.our-mission .content .mobile {
+    display: none;
+}
+
+.our-mission .img {
+    width: 350px;
+    position: absolute;
+    right: 0px;
+    margin-top: 100px;
+}
+
+.our-mission .img img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .our-mission .img {
+        display: none;
+    }
+    .our-mission .content .mobile {
+        display: block;
+        text-align: center!important;
+    }
+    .our-mission .content .computer {
+        display: none;
+    }
+}
+
+
+/* OUR-MISSION-SECTION-END */

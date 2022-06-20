@@ -1,0 +1,140 @@
+.contact .inner-section .cards-group .cardsingle {
+    width: 300px;
+    height: 350px;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.contact .inner-section .cards-group .second-card {
+    border-left: 1px solid var(--shadow);
+    border-right: 1px solid var(--shadow);
+}
+
+.contact .inner-section .cards-group .cardsingle:hover {
+    box-shadow: 0px 1px 15px var(--shadow);
+    border-color: var(--white);
+}
+
+.contact .inner-section .cards-group .cardsingle .img {
+    width: 50%;
+}
+
+.contact .inner-section .cards-group .cardsingle .img img {
+    width: 100%;
+}
+
+.contact .inner-section .cards-group .cardsingle .text {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact .inner-section .cards-group .cardsingle .text .number-address-mail {
+    display: flex;
+}
+
+.contact .inner-section .cards-group .cardsingle .text .number-address-mail p {
+    margin: 5px;
+}
+
+.contact .inner-section .cards-group .cardsingle .text .number-address-mail p a {
+    text-decoration: none;
+    color: var(--black)
+}
+
+@media only screen and (max-width: 992px) {
+    .contact .inner-section .cards-group .second-card {
+        border: none;
+    }
+}
+
+
+/* FORM-START */
+
+
+/* FORM-END */
+
+.form-section .h1 {
+    margin: 40px !important;
+}
+
+.form-section .p {
+    color: var(--black);
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form .all-input {
+    display: flex;
+    width: 100%;
+    color: var(--yellow);
+    text-transform: capitalize;
+}
+
+form .all-input .first-one,
+form .all-input .second-one {
+    width: 50%;
+    height: 100% I !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+form .all-input .first-one {
+    margin-right: 20px;
+}
+
+form .all-input .first-one input,
+form .all-input .second-one input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border: 1px solid var(--black);
+    padding: 20px;
+    background-color: transparent;
+    margin: 7px 0px;
+}
+
+form .all-input .second-one #textarea {
+    height: 100%;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    background-color: var(--yellow);
+    color: var(--white);
+    border: none;
+    padding: 15px 0px;
+    margin: 20px;
+    font-size: 20px;
+    transition: all .25s ease;
+}
+
+form input[type="submit"]:hover {
+    filter: drop-shadow(0px 5px 5px var(--shadow));
+}
+
+@media only screen and (max-width: 992px) {
+    form .all-input {
+        flex-direction: column;
+        width: 100%;
+    }
+    form .all-input .first-one,
+    form .all-input .second-one {
+        width: 100%;
+    }
+    form .all-input .second-one {
+        height: 200px;
+    }
+}
