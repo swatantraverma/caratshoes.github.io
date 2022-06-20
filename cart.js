@@ -172,7 +172,7 @@ function printAllProductsINCart() {
         <div class="box-size product-img"></div>
         <div class="product-name box-size"></div>
         <div class="price box-size"></div>
-        <div class="quantity box-size">total :</div>
+        <div class="quantity box-size">net :</div>
         <div class="total box-size">${price}</div>        
         </div>
         `
