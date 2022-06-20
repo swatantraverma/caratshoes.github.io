@@ -272,6 +272,7 @@ function validForm() {
     } else {
         return false;
     }
+        
     // PASS-THE-FORM-AFTER-VALIDATION
 }
 
