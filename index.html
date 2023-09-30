@@ -11,12 +11,30 @@
     <script src="https://kit.fontawesome.com/9a3259909e.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-
     <title>home</title>
+     <style>
+        .containerrrr {
+            display: none;
+        }
+        #gif {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            /* background-color: rgb(0, 0, 0); */
+        }
+        #gif img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
 </head>
-
 <body>
-    <div class="containerrrr">
+    <div id="gif">
+        <img src="images/giphy (1).gif" alt="">
+    </div>
+    <div class="containerrrr" id="contaner">
         <!-- NAV-BAR-START -->
         <nav>
             <div class="logo">
@@ -799,6 +817,10 @@
         AOS.init({
             offset: 80
         });
+           window.addEventListener('load',() => {
+            document.getElementById('gif').style.display = "none";
+            document.getElementById('contaner').style.display = "block";
+        })
     </script>
 </body>
 
